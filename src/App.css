@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #101650;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101650;
+}
+.put{
+    margin-top: 4rem;
+    padding: 9px 15px;
+    margin-right: 1rem;
+    font-size: 15px;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+.btn{
+    margin-top: 4rem;
+    padding: 3px 1rem;
+    background: transparent;
+    border: none;
+    background-color: #3CBC8D;
+    padding: 12px 15px;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.movieCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1rem ;
+    padding-left: 39px;
+    margin-top: 6rem
+}
+img{
+    height: 300px;
+    width: 252px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 3s;
+    cursor: none;
+}
+.title{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgb(100, 82, 82) ;
+}
